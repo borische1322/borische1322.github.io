@@ -151,6 +151,15 @@ input, select {
 a{
     text-decoration: none;
 }
+
+.profile-bg-img {
+  min-height: 100%;
+  background-image: url('assets/bgimgOp.png');
+}
+
+.sub-text-color-black {
+  color: #222222;
+}
 .sub-text-color-grey {
   color: #434242
 }
@@ -159,10 +168,9 @@ a{
   color: #F3EFE0;
 }
 .sub-bg-color-cyan {
-  background-color: #137774;
+  background-color: #22A39F;
 }
 html *
 {
    font-family: 'Helvetica' !important;
-   color: #222222;
 }
