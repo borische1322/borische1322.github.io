@@ -137,12 +137,29 @@ input, select {
     font-size: 30px;
 }
 
+.warp-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-text {
+  margin-top: auto;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
 
 a{
     text-decoration: none;
 }
-.sub-color {
+.sub-text-color-grey {
   color: #434242
+}
+
+.sub-text-color-beige {
+  color: #F3EFE0;
+}
+.sub-bg-color-cyan {
+  background-color: #137774;
 }
 html *
 {
