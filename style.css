@@ -119,7 +119,7 @@ input, select {
     margin: 10px;
     font-size: 20px;
     vertical-align: middle;
-    line-height: 70px
+    line-height: 70px;
 }
 
 .spaces-2 {
@@ -138,11 +138,11 @@ input, select {
 }
 
 .profile-pic {
-  width: 200px
+  width: 200px;
 }
 
 a{
-    text-decoration:none
+    text-decoration: none;
 }
 .sub-color {
   color: #434242
