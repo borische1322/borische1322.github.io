@@ -148,6 +148,22 @@ input, select {
   margin-right: 20px;
 }
 
+.interests-margin {
+  padding: 50px;
+}
+
+.interests-title {
+  font-size: 30px;
+  text-align: center;
+}
+.interests-subtitle {
+  font-size: 20px;
+  text-align: center;
+}
+
+.interest-text-margin {
+  margin-top: 20px;
+}
 a{
     text-decoration: none;
 }
@@ -166,6 +182,10 @@ a{
 
 .sub-text-color-beige {
   color: #F3EFE0;
+}
+
+.sub-bg-color-beige {
+  background-color: #F3EFE0;
 }
 .sub-bg-color-cyan {
   background-color: #22A39F;
