@@ -259,6 +259,11 @@ a{
   padding: 10px;
   border-radius: 10px
 }
+
+.center {
+  padding: 40px 0;
+  text-align: center;
+}
 .sub-text-color-black {
   color: #222222;
 }
