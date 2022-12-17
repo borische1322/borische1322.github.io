@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projects Gan</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../style.css">
+    </head>
+
+    <body>
+        <!-- main content-->
+        <div >
+            <div class='mainHeading warp-flex just-space'>
+                <div class="warp-flex">
+                    <h1 class='spaces-1 title sub-text-color-black'>Boris Che</h1>
+                    <h1 class='spaces-1 sub-text-color-grey'> | </h1>
+                    <a href="../index.html">
+                      <h1 class='spaces-1 sub-text-color-grey'> Portfolio </h1>
+                    </a>
+                </div>
+                <div class="warp-flex">
+                    <a href="../projects.html">
+                        <h1 class='spaces-1 space-menu sub-text-color-cyan'> Projects </h1>
+                    </a>
+                    <a href="../contacts.html">
+                        <h1 class='spaces-1 space-menu sub-text-color-grey'> Contacts </h1>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="bg-padding sub-bg-color-grey">
+                    <div class="warp-flex sub-bg-color-cyan profile-bg-img profile-padding"></div>
+                </div>
+            </div>
+            <div>
+                <div class="experience-main-margin">
+                    <h1 class="interests-title sub-text-color-grey">
+                        GAN for generating traffic signs images
+                    </h1>
+                    <br>
+                    <h4 class="sub-text-color-black interests-subtitle">School Project ––– from scratch</h4>
+                    <div class="experience-margin">
+                        <hr class="experience-text" color="#22A39F">
+                        <div class="experience-card">
+                          <p class="exlerience-description sub-text-color-grey">This project focuses on using Conditional
+                              Generative Adversarial Network (GAN) to train a model that can generate traffic signs using
+                              <a href="https://www.kaggle.com/datasets/valentynsichkar/traffic-signs-1-million-images-for-classification" target="_blank">traffic sign image dataset from kaggle</a>.</p>
+                            <br>
+                            <br>
+                            <p class="exlerience-description sub-text-color-grey">Data Preprocessing: any imgages that are too dim and dark are filtered out. the remaining images are
+                                then resized to 64x64
+                            </p>
+                            <br>
+                            <br>
+                            <a href="https://www.researchgate.net/figure/a-Standard-GAN-and-b-conditional-GAN-architectures_fig4_326928177" target="_blank">
+                                <img src="../assets/CGAN.png" alt="" width="400" class="img-rounc-corner">
+                            </a>
+                            <p class="exlerience-description sub-text-color-grey">Following the architecture above, the machine learning framework Keras is used
+                                to implement the generator, the discriminator and the GAN itself.
+                            </p>
+                            <br>
+                            <br>
+                            <p class="exlerience-description sub-text-color-grey">results:</p>
+                            <p class="exlerience-description sub-text-color-grey">class 0 - 9</p>
+                            <img src="../assets/output.png" alt="" width="400" class="img-rounc-corner">
+                            <p  class="exlerience-description sub-text-color-grey">class 10 - 19</p>
+                            <img src="../assets/output1.png" alt="" width="400" class="img-rounc-corner">
+                            <p  class="exlerience-description sub-text-color-grey">class 20 - 29</p>
+                            <img src="../assets/output2.png" alt="" width="400" class="img-rounc-corner">
+                            <p  class="exlerience-description sub-text-color-grey">class 30 - 39</p>
+                            <img src="../assets/output3.png" alt="" width="400" class="img-rounc-corner">
+                            <p  class="exlerience-description sub-text-color-grey">class 33 - 42</p>
+                            <img src="../assets/output4.png" alt="" width="400" class="img-rounc-corner">
+                            <br>
+                            <br>
+                            <p class="exlerience-description sub-text-color-grey">Improvements: a two stage structure which most text-to-image networks adopt can be used,
+                                where stage 1 is to form the composition of the image and stage 2 is to form the details,
+                                resulting in a better result.
+                            </p>
+                            <br>
+                            <br>
+                            <p class="exlerience-description sub-text-color-grey">Code can be found <a href="https://github.com/borische1322/GAN-for-traffic-signs" target="_blank">here in my github</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-padding-top sub-bg-color-grey">
+               <div id = "footer"></div> 
+            </div>
+            </div>
+        </div>
+    </body>
+</html>

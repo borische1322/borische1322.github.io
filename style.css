@@ -179,6 +179,10 @@ input, select {
   font-size: 20px;
   text-align: center;
 }
+.interests-subtitle {
+  font-size: 20px;
+  text-align: center;
+}
 
 .interest-text-margin {
   margin-top: 20px;
